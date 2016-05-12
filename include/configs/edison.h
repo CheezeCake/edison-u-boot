@@ -95,7 +95,8 @@
 #define CONFIG_CMD_ZBOOT
 #define CONFIG_AUTOBOOT
 #define CONFIG_BOOTCOMMAND "run bootcmd"
-#define CONFIG_BOOTDELAY 3
+#define CONFIG_BOOTDELAY 0
+#define CONFIG_ZERO_BOOTDELAY_CHECK
 
 /*-----------------------------------------------------------------------
  * DEBUG
